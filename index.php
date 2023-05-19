@@ -70,7 +70,7 @@
                 <h3>Lenguajes</h3>
                 <div class="col-6">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="HTML" name="lenguaje[]" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="HTML" name="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             HTML
                         </label>
@@ -112,7 +112,7 @@
                 </div>
             </div>    
             <div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" data>Submit</button>
                 <button type="reset" class="btn btn-success">Reset</button>
                 
             </div>
