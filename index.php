@@ -56,7 +56,7 @@
                 <div class="col-3">
                     <div class="mb-3">
                         <label for="ingles" class="form-label">Nivel de Ingles</label>
-                        <select name="ingles" class="form-select" aria-label="Default select example">
+                        <select name="ingles" class="form-select" aria-label="Default select example" id="ingles">
                             <option selected>Nivel de Ingles</option>
                             <option value="1">Basico</option>
                             <option value="2">Intermedio</option>
@@ -70,7 +70,7 @@
                 <h3>Lenguajes</h3>
                 <div class="col-6">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="HTML" name="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="HTML" name="lenguaje[]" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             HTML
                         </label>

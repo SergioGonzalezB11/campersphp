@@ -15,17 +15,15 @@ echo "<br/>";
 $lenguaje = isset ($_POST["lenguaje"]) ? count($_POST["lenguaje"]) :"";
 echo $lenguaje;
 
-if($lenguaje > 2){
-    if($lenguaje >= 2 && $idioma==1 ){
-        //echo "basico";
+
+    if($lenguaje <4 && $idioma <= 3){
         header("Location:basico.php");
-    }else if($lenguaje >=4 && $idioma == 2){
-            //echo "medio";
-            header("Location:intermedio.php");
-        }else if($lenguaje >= 6 && $idioma == 3){
+        //echo "basico";
+    }else if($lenguaje >=4 && $lenguaje <6 && $idioma <= 3){
+        header("Location:intermedio.php");
+        //echo "medio";
+    }else if($lenguaje >= 6 && $idioma <= 3 ){
+        header("Location:avanzado.php");
                 //echo "avanzado";
-                header("Location:avanzado.php");
             }
-}else 
-    echo "no pasaste";
 ?>
